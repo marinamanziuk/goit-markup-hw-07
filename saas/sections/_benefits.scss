@@ -1,0 +1,89 @@
+/* About STUDIO-hidden  benefits1 icons*/
+
+.hidden-benefits { display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position:center;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    }
+.hidden-benefits:last-child {margin-right: 0px;} 
+.hidden-icons {fill: var(--primary-text-color);}
+
+.studio-benefits {
+ padding-top: 94px;
+ padding-bottom: 94px;
+}
+.studio-list {display: flex;
+}
+.benefits-item {width: 270px;
+margin-left: 30px;}
+.benefits-item:first-child {margin-left: 0px;}
+
+.benefits-subtitle {
+margin-bottom: 10px;
+font-family:inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-text-color);}
+.benefits-item:not(:first-child) {margin-left: 30px;}
+
+/* About Studio-img benefits 2 */
+.benefits {padding-bottom: 94px;}
+.benefits-list {
+display: flex;
+}
+.benefits-img:first-child {
+    margin-left: 0px;}
+.benefits-title {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+    }
+    /* About benefits description */
+    .benefits-img {margin-left: 30px;
+        width: 370px;
+        height: 294px;
+       position: relative;
+       display: flex;
+        }
+    .benefits-description {
+        display: flex;
+        position: absolute;
+        bottom:0;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70px;
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--main-background-color);
+        background: rgba(47, 48, 58, 0.8);
+        }
+       
+/* About  Studio Team*/
+    .benefits-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+
+   }
